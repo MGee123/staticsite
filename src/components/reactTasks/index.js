@@ -5,6 +5,8 @@ import Champ from './champs';
 export default () => {
   return (
     <div>
+      <h1>Champs</h1>
+
       <Champ file={'./components/reactTasks/AatroxSquare.png'} champ={{ name: 'Aatrox', role: 'Fighter', diff: '6/10', price: '6300ip' }} />
       
 	<Champ file={'./components/reactTasks/AhriSquare.png'} champ={{ name: 'Ahri', role: 'Assassin', diff: '8/10', price: '6300ip' }} />

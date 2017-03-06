@@ -4,7 +4,7 @@ export default class Champ extends React.Component {
   render() {
     return (
 	
-      
+     
       
       <div>
 	 <img src={this.props.file} /> 
