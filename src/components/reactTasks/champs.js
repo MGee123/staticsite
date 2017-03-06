@@ -2,24 +2,14 @@ import React from 'react'
 
 export default class Champ extends React.Component {
   render() {
-const champion = function(champ) {
-        return (<div>
-        <img src={champ.file} /> 
-        <p>Name: {champ.name } </p>
-        <p>Role: { champ.role } </p>
-        <p>Difficulty: { champ.diff } </p>
-        <p>Price: { champ.price } </p> 
-         </div>);
-}
-return (
-    
-     
-      
-      <div>
-         Champions: { _.map(this.props.Champions, champion) }
-     
-      </div>
-    
-    )
-  }
+        return (
+        <div>
+        <img src={this.props.champ.file} /> 
+        <p>Name: {this.props.champ.name } </p>
+        <p>Role: { this.props.champ.role } </p>
+        <p>Difficulty: { this.props.champ.diff } </p>
+        <p>Price: { this.props.champ.price } </p> 
+         </div>
+           );
+ }
 }
